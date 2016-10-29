@@ -5,5 +5,6 @@ import (
 )
 
 func TestRegister(t *testing.T) {
-	t.Errorf("Error !!!")	
+	Register("p1", NewP1())
+
 }
