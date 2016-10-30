@@ -4,7 +4,9 @@ import (
 	"testing"
 )
 
-func TestMain(*testing.T) {
+func TestMain(t *testing.T) {
 	// redeclare p1
     main()
+
+    t.Error("error intentionally")
 }
